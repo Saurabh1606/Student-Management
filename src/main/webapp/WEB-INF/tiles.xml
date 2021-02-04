@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="BaseLayout" template="/pages/BaseLayout.jsp">
+		<put-attribute name="header" value="/pages/Header.jsp" />
+		<put-attribute name="footer" value="/pages/Footer.jsp" />
+	</definition>
+	
+	
+	<definition name="Welcome" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/Welcome.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="Login" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/Login.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="ForgetPassword" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/ForgetPasswordView.jsp"></put-attribute>
+	</definition>
+		
+	
+	<definition name="ChangePassword" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/ChangePassword.jsp"></put-attribute>
+	</definition>
+	<definition name="Myprofile" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/MyProfile.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="Subject" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/Subject.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="Assignment" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/Assignment.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="User" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/User.jsp"></put-attribute>
+	</definition>
+	<definition name="Attendance" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/Attendance.jsp"></put-attribute>
+	</definition>
+	<definition name="Fee" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/Fee.jsp"></put-attribute>
+	</definition>
+	<definition name="Marksheet" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/Marksheet.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="AdminList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/UserList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="StudentList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/StudentList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="FacultyList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/TeacherList.jsp"></put-attribute>
+	</definition>
+	<definition name="SubjectList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/SubjectList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="AssignmentList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/AssignmentList.jsp"></put-attribute>
+	</definition>
+	<definition name="AttendanceList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/AttendanceList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="FeeList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/FeeList.jsp"></put-attribute>
+	</definition>
+	<definition name="MarksheetList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/MarksheetList.jsp"></put-attribute>
+	</definition>
+	<definition name="MarksheetMeritList" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/MarksheetMaritList.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="GetMarksheet" extends="BaseLayout" >
+		<put-attribute name="body"  value="/pages/GetMarksheet.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>
